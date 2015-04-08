@@ -1,9 +1,0 @@
-Features:
-
-1) Get more information - Someone
-2) Pull trailer from youtube - Someone
-3) Tomato-meter + link to webpage? - Together
-
-
-Tap on image (main activity, we do this together), then we have that movie selected. We can then swipe through the three activities, 
-
