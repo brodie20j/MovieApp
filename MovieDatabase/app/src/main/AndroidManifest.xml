@@ -20,7 +20,9 @@
         </activity>
         <activity
             android:name=".About"
-            android:label="@string/title_activity_about" >
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity" >
+            >
         </activity>
         <activity
             android:name=".Web"
@@ -69,6 +71,13 @@
         <activity
             android:name=".GunmanInfo"
             android:label="@string/title_activity_gunman_info" >
+        </activity>
+
+        <activity
+            android:name=".TrailerActivity"
+            android:label="@string/title_activity_trailer"
+            android:parentActivityName=".MainActivity" >
+            >
         </activity>
     </application>
 

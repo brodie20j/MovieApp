@@ -16,4 +16,18 @@
     <string name="title_activity_run_info">RunInfo</string>
     <string name="title_activity_marigold_info">MarigoldInfo</string>
     <string name="title_activity_gunman_info">GunmanInfo</string>
+    <string name="title_activity_trailer">Trailers</string>
+    <string-array name="movies_array">
+        <item>Please Select a Movie</item>
+        <item>Home</item>
+        <item>Get Hard</item>
+        <item>Insurgent</item>
+        <item>Cinderella</item>
+        <item>It Follows</item>
+        <item>Kingsmen: The Secret Service</item>
+        <item>Do You Believe?</item>
+        <item>Run All Night</item>
+        <item>The Second Best Exotic Marigold Hotel</item>
+        <item>The Gunman</item>
+    </string-array>
 </resources>
