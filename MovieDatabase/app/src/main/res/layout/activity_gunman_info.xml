@@ -37,8 +37,10 @@
         android:id="@+id/gunmaninfosummary"
         android:textColor="#000000"
         android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/gunmaninfoposter"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="294dp" />
 
     <TextView
         android:layout_width="wrap_content"

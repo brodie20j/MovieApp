@@ -6,47 +6,19 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.cody.moviedatabase.About">
 
-    <FrameLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="On the list view, select a feature you'd like to explore. From here, press a movie in the displayed grid. "
+        android:id="@+id/textView"
+        android:layout_gravity="left|top" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="On the home screen, tap a movie. "
-            android:id="@+id/textView"
-            android:layout_gravity="left|top" />
-
-        <ImageView
-            android:contentDescription="SniperTestPhoto"
-            android:layout_width="match_parent"
-            android:layout_height="400px"
-            android:scaleType="fitCenter"
-            android:src="@drawable/sniper"
-            android:layout_gravity="center_horizontal|top"
-            android:layout_marginTop="100px"
-            android:id="@+id/pic" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="American Sniper"
-            android:id="@+id/textView2"
-            android:layout_gravity="center"
-            android:textColor="#0000ff" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="From here, tap the menu button at the top-right of the screen to choose which action to take!"
-            android:id="@+id/textView3"
-            android:layout_gravity="center"
-            android:layout_marginTop="150px" />
-    </FrameLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/gunman"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
